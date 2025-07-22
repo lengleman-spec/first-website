@@ -8,7 +8,7 @@
 
 :root {
   --off-white: #ffffff; /* Background */
-  --dark-gray: #1a1a1a; /* Text */
+  --primary-text: #1a1a1a; /* Dark gray */
   --blue: #4a90e2; /* Accent 1 */
   --dark-blue: #1e4977; /* Accent 1 */
   --light-blue: #add8e6;
@@ -31,11 +31,37 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--dark-blue);
+  color: var(--primary-text);
 }
 
 li {
   list-style-type: none;
   padding: 3px;
   margin: 0 8px;
+}
+
+h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+section {
+  width: 80%;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.hero-text {
+  max-width: 300px;
+  margin-left: -2rem;
+}
+
+.hero-para {
+  margin-bottom: 0.6rem;
 }
