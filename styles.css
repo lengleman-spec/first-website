@@ -53,11 +53,10 @@ h2 {
 
 section {
   width: 80%;
-  min-height: 400px;
+  min-height: 500px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 2px solid red;
 }
 
 .hero,
@@ -82,14 +81,6 @@ section {
   margin-right: 4rem;
 }
 
-/* .edu-career {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: auto;
-  border: 2px solid rebeccapurple;
-} */
-
 .edu-career-container {
   display: flex;
   justify-content: space-evenly;
@@ -98,5 +89,17 @@ section {
 .career-text,
 .edu-text {
   border: 2px solid #1a1a1a;
+  border-radius: 12px;
   max-width: 400px;
+}
+
+.career-text {
+  margin-left: 2rem;
+  position: relative;
+  top: 80px;
+}
+
+.edu-text {
+  position: relative;
+  top: -80px;
 }
