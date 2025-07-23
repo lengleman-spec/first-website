@@ -103,3 +103,12 @@ section {
   position: relative;
   top: -80px;
 }
+
+/* PROJECTS SECTION */
+.project-1,
+.project-2,
+.project-3 {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #1a1a1a;
+}
