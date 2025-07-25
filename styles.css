@@ -81,9 +81,11 @@ section {
   margin-right: 4rem;
 }
 
+/* EDUCATION AND CAREER */
 .edu-career-container {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .career-text,
@@ -91,6 +93,7 @@ section {
   border: 2px solid #1a1a1a;
   border-radius: 12px;
   max-width: 400px;
+  padding: 16px;
 }
 
 .career-text {
