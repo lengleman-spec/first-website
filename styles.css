@@ -132,3 +132,19 @@ section {
   align-items: center;
   margin: auto;
 }
+
+/* PAST AND FUTURE */
+.past-future {
+  margin: auto;
+}
+
+.past-container,
+.future-container {
+  border: 2px solid #1a1a1a;
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  padding: 1.5rem;
+}
