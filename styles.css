@@ -21,7 +21,7 @@ html {
   font-family: "Space Grotesk", sans-serif;
 }
 
-ul {
+#nav-bar {
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
