@@ -16,10 +16,10 @@
   --light-gray: #e0e0e0;
 }
 
-html {
+/* html {
   background-color: var(--light-blue);
   font-family: "Space Grotesk", sans-serif;
-}
+} */
 
 #nav-bar {
   display: flex;
