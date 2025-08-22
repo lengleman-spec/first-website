@@ -19,13 +19,22 @@
       rel="stylesheet"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" />
   </head>
   <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav
+      class="navbar navbar-expand-md bs-primary-bg-subtle"
+      data-bs-theme="light">
       <!--navbar-expand-* makes it so that when we have a md sized screen, make the navbar expand full width-->
       <div class="container-xl">
         <a href="#" class="navbar-brand">
+          <!--Img to be next to 'brand name'-->
+          <i class="bi bi-earbuds text-secondary"></i>
+
           <span class="fw-bold text-secondary">MyBrandName</span>
         </a>
 
@@ -83,6 +92,7 @@
       </section>
 
       <!-- About Me -->
+      <!-- could add in section for music (as a hobby)-->
       <section class="section about" id="about">
         <div class="about-text">
           <h2>Get to know me</h2>
