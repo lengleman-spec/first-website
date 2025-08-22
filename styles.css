@@ -16,10 +16,9 @@
   --light-gray: #e0e0e0;
 }
 
-/* html {
-  background-color: var(--light-blue);
+html {
   font-family: "Space Grotesk", sans-serif;
-} */
+}
 
 #nav-bar {
   display: flex;
